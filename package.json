@@ -1,6 +1,6 @@
 {
-  "name": "reactjs-vite-tailwindcss-boilerplate",
-  "description": "This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
+  "name": "master-playground",
+  "description": "Just a React playground",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -19,6 +19,8 @@
     "@mantine/hooks": "^7.13.3",
     "@tanstack/react-query": "^5.59.0",
     "@tanstack/react-query-devtools": "^5.59.0",
+    "@tanstack/react-router": "^1.102.1",
+    "@vitejs/plugin-react": "^4.3.4",
     "axios": "^1.7.7",
     "prettier-plugin-tailwindcss": "^0.6.8",
     "react": "^18.3.1",
@@ -28,6 +30,8 @@
   },
   "devDependencies": {
     "@tanstack/eslint-plugin-query": "^5.58.1",
+    "@tanstack/router-devtools": "^1.102.1",
+    "@tanstack/router-plugin": "^1.102.1",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^14.3.1",
     "@types/node": "^20.16.5",
