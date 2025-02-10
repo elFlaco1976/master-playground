@@ -1,0 +1,18 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 4rem;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .gridContainer {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .gridContainer {
+    gap: 1rem;
+  }
+}

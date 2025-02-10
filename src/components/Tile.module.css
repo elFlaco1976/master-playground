@@ -1,0 +1,15 @@
+.tileItem {
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  .tileItem {
+    width: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .tileItem {
+    width: 100px;
+  }
+}
